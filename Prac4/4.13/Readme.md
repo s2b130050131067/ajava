@@ -1,8 +1,11 @@
+Screenshot 1 - Correct username and password entered.
+![Snapshot 1](https://cloud.githubusercontent.com/assets/16937627/13029190/e337599a-d2aa-11e5-9ac1-6a426f5d08bd.JPG)
 
-4.13 Send Redirect in Servlet
------------------------------
-When we want that someone else should handle the response of our servlet, then there we should use sendRedirect() method.
-In send Redirect whenever the client makes any request it goes to the container, there the container decides whether the concerned servlet can handle the request or not. If not then the servlet decides that the request can be handle by other servlet or jsp. Then the servlet calls the sendRedirect() method of the response object and sends back the response to the browser along with the status code. Then the browser sees the status code and look for that servlet which can now handle the request. Again the browser makes a new request, but with the name of that servlet which can now handle the request and the result will be displayed to you by the browser. In all this process the client is unaware of the processing.
-In this example we are going to make one html in which we will submit the user name and his password. The controller will check if the password entered by the user is correct or not. If the password entered by the user is correct then the servlet will redirect the request to the other servlet which will handle the request. If the password entered by the user is wrong then the request will be forwarded to the html form.
+Screenshot 2 - Successfully authenticated.
+![Snapshot 2](https://cloud.githubusercontent.com/assets/16992391/13028530/a792cb3a-d297-11e5-948d-6638576db4ee.JPG)
 
+Screenshot 3 - Incorrect username and password entered.
+![Snapshot 3](https://cloud.githubusercontent.com/assets/16937627/13029188/bc445586-d2aa-11e5-85e8-a37e6b3e2e28.JPG)
 
+Screenshot 4 - Redirected to login page.
+![Snapshot 4](https://cloud.githubusercontent.com/assets/16937627/13029192/ee650a06-d2aa-11e5-992b-aac8e06c4764.JPG)

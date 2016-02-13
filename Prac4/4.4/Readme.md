@@ -1,7 +1,5 @@
+Screenshot 1 - Accessing first time
+![Snapshot 1](https://cloud.githubusercontent.com/assets/16937627/13029164/32bed6ec-d2aa-11e5-8bd6-a4efdc802f84.JPG)
 
-4.4 A Holistic counter in Servlet
----------------------------------
-In this program we are going to make a such a servlet which will count the number of times it has been accessed and the number of threads created by the server.
-In this example firstly we are going to create one class named as HolisticCounterInServlet. Now declare a variable counter of int with initial value 0, the value of this counter will be different for each servlet and create a Hashtable object. This object will be shared by all the threads in the container. Inside the doGet() method use the method getWriter() method of the response object which will return the PrintWriter object. 
-
-
+Screenshot 2 - Accessing second time
+![Snapshot 2](https://cloud.githubusercontent.com/assets/16937627/13029167/47de29ce-d2aa-11e5-8797-5a61219ff806.JPG)
